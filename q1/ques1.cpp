@@ -17,8 +17,8 @@ namespace arr1D {
 namespace arr2D {
     void input(int arr[][4], int r, int c){     
         // cannot have argument as int arr[][] 
-        // as compiler needs to know size of elements for dividing memory 
-        // this can pe avoided by using 2d vectors ( vector<vector<int>>)
+        // as compiler needs to know size of column elements for dividing memory 
+        // this can be avoided by using 2d vectors ( vector<vector<int>>)
         cout << "Enter 2D array elements:" << endl;
         for (int i = 0; i < r; i++){
             for(int j = 0; j < c; j++){
