@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 namespace arr1D {
     void input(int arr[],int n){
     cout << "Enter 1D array elements:" << endl;

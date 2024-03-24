@@ -13,8 +13,8 @@ int main()
         cin >> arr[i];
     }
     //finding smallest and largest element
-    int min = INT_MAX;
-    int max = INT_MIN;
+    int min = INT_MAX; // macros
+    int max = INT_MIN; 
     for(int i = 0; i < arr.size();i++){
         if(arr[i] >= max ){
             max = arr[i];
@@ -25,5 +25,6 @@ int main()
     }
     cout << "Smallest: "<<min<<endl;
     cout << "Largest: "<<max<<endl;
+    
     return 0;
 }
