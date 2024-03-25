@@ -11,7 +11,7 @@ namespace arr1D {
     void print(int arr[],int n){
         cout <<"Elements of 1D Array at Index which is a multiple of 3:"<< endl;
         for(int i = 0; i < n; i++){
-            if(arr[i]%3 == 0) cout << arr[i] << endl;
+            if(i%3 == 0) cout << arr[i] << endl;
         }
     }
 }
@@ -31,7 +31,7 @@ namespace arr2D {
         cout <<"Elements of 2D Array at Index which is a multiple of 3:"<< endl;
         for(int i = 0; i < r; i++){
             for (int j = 0; j < c; j++){
-                if(arr[i][j]%3 == 0) cout << arr[i][j] << endl;
+                if(i%3 == 0 && j%3 == 0) cout << arr[i][j] << endl;
             }
         }
     
